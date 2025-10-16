@@ -48,3 +48,9 @@ export function median(xs) {
 export function toCurrency(n, locale = 'en-US', currency = 'USD') {
   return new Intl.NumberFormat(locale, { style: 'currency', currency }).format(n);
 }
+
+/** Round to a given number of decimal places. */
+export function round(n, decimals = 0) {
+  const factor = Math.pow(10, decimals);
+  return Math.round(n * factor) / factor;
+}
