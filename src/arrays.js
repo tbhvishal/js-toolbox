@@ -1,0 +1,39 @@
+/** arrays: helpers that get out of your way. */
+
+export function unique(xs) {
+  return [...new Set(xs)];
+}
+
+export function chunk(xs, size = 2) {
+  const out = [];
+  for (let i = 0; i < xs.length; i += size) out.push(xs.slice(i, i + size));
+  return out;
+}
+
+export function sample(xs) {
+  if (!xs.length) return undefined;
+  const i = Math.floor(Math.random() * xs.length);
+  return xs[i];
+}
+
+export function shuffle(xs) {
+  const arr = [...xs];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+export function groupBy(xs, fn) {
+  const out = {};
+  for (const x of xs) {
+    const k = String(fn(x));
+    (out[k] ||= []).push(x);
+  }
+  return out;
+}
+
+export function flatten(xs) {
+  return xs.flat ? xs.flat() : xs.reduce((acc, x) => acc.concat(x), []);
+}

@@ -1,0 +1,29 @@
+{
+  "name": "js-toolbox",
+  "version": "0.1.0",
+  "description": "A small, no-deps JavaScript toolbox for everyday tasks — simple, readable, and copy-paste friendly.",
+  "type": "module",
+  "bin": {
+    "js-toolbox": "./bin/js-toolbox.js"
+  },
+  "scripts": {
+    "cli": "node ./bin/js-toolbox.js",
+    "test": "node ./tests/run-all.js"
+  },
+  "keywords": [
+    "javascript",
+    "utilities",
+    "toolbox",
+    "cli",
+    "no-deps"
+  ],
+  "author": "tbhvishal",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tbhvishal/js-toolbox.git"
+  }
+}

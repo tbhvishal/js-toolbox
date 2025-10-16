@@ -1,0 +1,9 @@
+{
+  "users": [
+    { "id": 1, "name": "Ada Lovelace", "role": "engineer" },
+    { "id": 2, "name": "Alan Turing", "role": "scientist" },
+    { "id": 3, "name": "Grace Hopper", "role": "admiral" }
+  ],
+  "numbers": [1, 2, 3, 4, 5, 6],
+  "messages": ["Hello World", "lorem ipsum", "Open source is fun"]
+}
