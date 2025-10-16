@@ -32,3 +32,10 @@ export function parseISO(s) {
   const d = new Date(s);
   return isNaN(d.getTime()) ? null : d;
 }
+
+/** Get the start of day (00:00:00.000). */
+export function startOfDay(d = new Date()) {
+  const date = new Date(d);
+  date.setHours(0, 0, 0, 0);
+  return date;
+}
