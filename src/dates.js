@@ -39,3 +39,10 @@ export function startOfDay(d = new Date()) {
   date.setHours(0, 0, 0, 0);
   return date;
 }
+
+/** Get the end of day (23:59:59.999). */
+export function endOfDay(d = new Date()) {
+  const date = new Date(d);
+  date.setHours(23, 59, 59, 999);
+  return date;
+}
