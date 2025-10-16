@@ -56,3 +56,15 @@ export function debounce(fn, waitMs = 300) {
     timer = setTimeout(() => fn.apply(this, args), waitMs);
   };
 }
+
+/** Throttle a function to run at most once per interval. */
+export function throttle(fn, limitMs = 300) {
+  let last = 0;
+  return function (...args) {
+    const now = Date.now();
+    if (now - last >= limitMs) {
+      last = now;
+      fn.apply(this, args);
+    }
+  };
+}
