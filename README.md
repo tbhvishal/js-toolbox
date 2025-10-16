@@ -26,7 +26,7 @@ node ./bin/js-toolbox.js strings slugify "Hello World!"
 ## Modules
 - **numbers**: clamp, between, randInt, randFloat, sum, avg, median, toCurrency, round, percentage, isEven, isOdd
 - **strings**: capitalize, titleCase, kebabCase, slugify, truncate, pad, stripAnsi, reverse, camelCase, snakeCase, repeat, escapeHtml
-- **dates**: formatDate, fromNow, addDays, isSameDay, parseISO
+- **dates**: formatDate, fromNow, addDays, isSameDay, parseISO, startOfDay, endOfDay, daysBetween
 - **arrays**: unique, chunk, sample, shuffle, groupBy, flatten, compact, first, last, take, range, partition
 - **async**: delay, sleep, withTimeout, retry, memoizeAsync, simpleQueue, debounce, throttle
 - **fs-utils**: readJSON, writeJSON, ensureDir, listFiles (Node only)
