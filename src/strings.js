@@ -69,3 +69,8 @@ export function snakeCase(s = '') {
     .replace(/^_|_$/g, '')
     .toLowerCase();
 }
+
+/** Repeat a string n times. */
+export function repeat(s = '', times = 1) {
+  return String(s).repeat(Math.max(0, times));
+}
