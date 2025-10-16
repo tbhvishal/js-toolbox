@@ -13,3 +13,4 @@ assert.deepEqual(arrays.range(5),  [0,  1,  2,  3,  4]);
 assert.deepEqual(arrays.partition([1,  2,  3,  4],  x  =>  x  %  2  ===  0),  [[2,  4],  [1,  3]]);
 
 console.log('arrays  tests  ok');
+
