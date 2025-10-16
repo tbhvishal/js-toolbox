@@ -66,5 +66,4 @@ export  function  isEven(n)  {
 export  function  isOdd(n)  {
   return  n  %  2  !==  0;
 }
-// minor update
 
