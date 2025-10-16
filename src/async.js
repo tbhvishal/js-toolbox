@@ -47,3 +47,12 @@ export function simpleQueue(concurrency = 2) {
 
 /** Alias for delay. */
 export const sleep = delay;
+
+/** Debounce a function call. */
+export function debounce(fn, waitMs = 300) {
+  let timer;
+  return function (...args) {
+    clearTimeout(timer);
+    timer = setTimeout(() => fn.apply(this, args), waitMs);
+  };
+}
