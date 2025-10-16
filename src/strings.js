@@ -1,7 +1,3 @@
-/** strings: practical transformations with clear intent.
- * Human note: prefer readable regexes and explicit steps; avoid magic.
- */
-
 export function capitalize(s = '') {
   if (!s) return '';
   return s.charAt(0).toUpperCase() + s.slice(1);
@@ -44,7 +40,6 @@ export function pad(s = '', length = 2, ch = ' ') {
 }
 
 export function stripAnsi(s = '') {
-  // standard-ish ANSI escape code regex
   return String(s).replace(/\u001B\[[0-9;]*[A-Za-z]/g, '');
 }
 

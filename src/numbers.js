@@ -1,7 +1,3 @@
-/** numbers: small helpers that cover common cases.
- * Human note: keep the surface tiny; resist cleverness. Practical beats perfect.
- */
-
 /** Clamp a number between min and max. */
 export function clamp(n, min, max) {
   if (min > max) [min, max] = [max, min];

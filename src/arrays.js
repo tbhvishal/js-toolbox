@@ -1,5 +1,3 @@
-/** arrays: helpers that get out of your way. */
-
 export function unique(xs) {
   return [...new Set(xs)];
 }

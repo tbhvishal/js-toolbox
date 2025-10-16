@@ -1,5 +1,3 @@
-/** dates: straightforward helpers built on Intl and Date. */
-
 export function formatDate(d = new Date(), locale = 'en-US', opts = {}) {
   const date = d instanceof Date ? d : new Date(d);
   return new Intl.DateTimeFormat(locale, { year: 'numeric', month: '2-digit', day: '2-digit', ...opts }).format(date);

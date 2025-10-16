@@ -1,5 +1,3 @@
-/** async: tiny helpers for common async patterns. */
-
 export const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
 export async function withTimeout(promise, ms, message = 'Timeout') {
