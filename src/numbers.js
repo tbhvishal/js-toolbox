@@ -67,7 +67,6 @@ export  function  isOdd(n)  {
   return  n  %  2  !==  0;
 }
 
-// minor update
 
 // minor update
 
