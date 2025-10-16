@@ -14,7 +14,6 @@ assert.equal(numbers.isEven(4), true);
 assert.equal(numbers.isOdd(5), true);
 
 console.log('numbers tests ok');
-// minor update
 
 // minor update
 // minor update
