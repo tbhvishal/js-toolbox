@@ -70,3 +70,12 @@ export function range(start, end, step = 1) {
   }
   return out;
 }
+
+/** Partition array into two groups based on predicate. */
+export function partition(xs, fn) {
+  const pass = [], fail = [];
+  for (const x of xs) {
+    (fn(x) ? pass : fail).push(x);
+  }
+  return [pass, fail];
+}
