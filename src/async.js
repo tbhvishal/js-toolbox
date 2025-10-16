@@ -44,3 +44,6 @@ export function simpleQueue(concurrency = 2) {
   };
   return (task) => new Promise((resolve, reject) => { queue.push({ task, resolve, reject }); runNext(); });
 }
+
+/** Alias for delay. */
+export const sleep = delay;
