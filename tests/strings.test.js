@@ -14,3 +14,4 @@ assert.equal(strings.escapeHtml('<div>'),  '&lt;div&gt;');
 
 console.log('strings  tests  ok');
 
+
