@@ -173,6 +173,8 @@ Want  to  add  a  utility  or  fix  a  bug?  Awesome!
 -  Update  the  README  with  an  example
 -  Check  out  [`CONTRIBUTING.md`](./CONTRIBUTING.md)  for  full  guidelines
 
+**💬 Have questions?** Check out [Discussions](https://github.com/tbhvishal/js-toolbox/discussions) or open an [Issue](https://github.com/tbhvishal/js-toolbox/issues)!
+
 ##  📄  License
 
 MIT  ©  [tbhvishal](https://github.com/tbhvishal)
@@ -186,36 +188,3 @@ MIT  ©  [tbhvishal](https://github.com/tbhvishal)
 ⭐  Star  this  repo  if  you  find  it  useful!  ⭐
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
