@@ -5,7 +5,6 @@
 -  Collect  real-world  examples  to  add  as  recipes.
 -  Consider  ESLint/Prettier  later  if  needed.
 
-
 //  minor  update
 //  minor  update
 //  minor  update
