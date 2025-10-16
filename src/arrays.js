@@ -37,3 +37,8 @@ export function groupBy(xs, fn) {
 export function flatten(xs) {
   return xs.flat ? xs.flat() : xs.reduce((acc, x) => acc.concat(x), []);
 }
+
+/** Remove falsy values from an array. */
+export function compact(xs) {
+  return xs.filter(Boolean);
+}
