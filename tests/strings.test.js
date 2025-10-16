@@ -21,5 +21,4 @@ console.log('strings  tests  ok');
 
 //  minor  update
 
-
 // minor update
