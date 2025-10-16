@@ -24,13 +24,13 @@ node ./bin/js-toolbox.js strings slugify "Hello World!"
 ```
 
 ## Modules
-- numbers: clamp, between, randInt, randFloat, sum, avg, median, toCurrency
-- strings: capitalize, titleCase, kebabCase, slugify, truncate, pad, stripAnsi
-- dates: formatDate, fromNow, addDays, isSameDay, parseISO
-- arrays: unique, chunk, sample, shuffle, groupBy, flatten
-- async: delay, withTimeout, retry, memoizeAsync, simpleQueue
-- fs-utils: readJSON, writeJSON, ensureDir, listFiles (Node only)
-- http: get/post using fetch with timeout + retries
+- **numbers**: clamp, between, randInt, randFloat, sum, avg, median, toCurrency, round, percentage, isEven, isOdd
+- **strings**: capitalize, titleCase, kebabCase, slugify, truncate, pad, stripAnsi, reverse, camelCase, snakeCase, repeat, escapeHtml
+- **dates**: formatDate, fromNow, addDays, isSameDay, parseISO
+- **arrays**: unique, chunk, sample, shuffle, groupBy, flatten, compact, first, last, take, range, partition
+- **async**: delay, sleep, withTimeout, retry, memoizeAsync, simpleQueue, debounce, throttle
+- **fs-utils**: readJSON, writeJSON, ensureDir, listFiles (Node only)
+- **http**: get/post using fetch with timeout + retries
 
 See examples in each file and tests in `tests/`.
 
