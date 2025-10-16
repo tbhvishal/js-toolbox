@@ -52,3 +52,20 @@ export function stripAnsi(s = '') {
 export function reverse(s = '') {
   return String(s).split('').reverse().join('');
 }
+
+/** Convert to camelCase. */
+export function camelCase(s = '') {
+  return String(s)
+    .replace(/[^a-zA-Z0-9]+(.)/g, (_, chr) => chr.toUpperCase())
+    .replace(/^[A-Z]/, (chr) => chr.toLowerCase());
+}
+
+/** Convert to snake_case. */
+export function snakeCase(s = '') {
+  return String(s)
+    .replace(/([a-z])([A-Z])/g, '$1_$2')
+    .replace(/[^a-zA-Z0-9]+/g, '_')
+    .replace(/_+/g, '_')
+    .replace(/^_|_$/g, '')
+    .toLowerCase();
+}
