@@ -16,4 +16,3 @@ console.log('strings  tests  ok');
 
 
 
-// minor update
