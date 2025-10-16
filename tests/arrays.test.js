@@ -15,6 +15,5 @@ assert.deepEqual(arrays.partition([1,  2,  3,  4],  x  =>  x  %  2  ===  0),  [[
 console.log('arrays  tests  ok');
 
 
-
 //  minor  update
 //  minor  update
