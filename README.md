@@ -100,7 +100,7 @@ MIT  ©  [tbhvishal](https://github.com/tbhvishal)
 
 <div align="center">
 
-**Made  with  ❤️  by  developers,  for  developers**
+**Made  with  ❤️ for  developers**
 
 ⭐  Star  this  repo  if  you  find  it  useful!  ⭐
 
