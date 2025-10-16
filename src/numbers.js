@@ -54,3 +54,9 @@ export function round(n, decimals = 0) {
   const factor = Math.pow(10, decimals);
   return Math.round(n * factor) / factor;
 }
+
+/** Calculate percentage (value/total * 100). */
+export function percentage(value, total) {
+  if (total === 0) return 0;
+  return (value / total) * 100;
+}
