@@ -74,3 +74,9 @@ export function snakeCase(s = '') {
 export function repeat(s = '', times = 1) {
   return String(s).repeat(Math.max(0, times));
 }
+
+/** Escape HTML special characters. */
+export function escapeHtml(s = '') {
+  const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+  return String(s).replace(/[&<>"']/g, (char) => map[char]);
+}
