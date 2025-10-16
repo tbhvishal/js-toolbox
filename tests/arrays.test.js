@@ -25,4 +25,3 @@ console.log('arrays  tests  ok');
 
 //  minor  update
 
-
