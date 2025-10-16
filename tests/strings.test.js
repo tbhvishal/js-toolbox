@@ -13,3 +13,4 @@ assert.equal(strings.repeat('x',  3),  'xxx');
 assert.equal(strings.escapeHtml('<div>'),  '&lt;div&gt;');
 
 console.log('strings  tests  ok');
+
