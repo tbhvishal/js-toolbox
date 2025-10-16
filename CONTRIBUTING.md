@@ -6,7 +6,7 @@ Thanks for checking this out! If you've got a useful utility or a bug fix, feel 
 
 - Small, focused functions that solve common problems.
 - Clear code that's easy to understand and copy.
-- No dependencies—keep it lightweight.
+- No dependencies - keep it lightweight.
 
 ## How to add a function
 
@@ -20,7 +20,7 @@ Thanks for checking this out! If you've got a useful utility or a bug fix, feel 
 ## Code style
 
 - Use camelCase for functions and variables.
-- Keep it readable—straightforward is better than clever.
+- Keep it readable - straightforward is better than clever.
 - Comments are fine when they add context, but the code should mostly speak for itself.
 - Guard clauses and early returns make things easier to follow.
 

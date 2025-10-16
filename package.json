@@ -1,7 +1,7 @@
 {
   "name": "js-toolbox",
   "version": "0.1.0",
-  "description": "A small, no-deps JavaScript toolbox for everyday tasks — simple, readable, and copy-paste friendly.",
+  "description": "A small, no-deps JavaScript toolbox for everyday tasks - simple, readable, and copy-paste friendly.",
   "type": "module",
   "bin": {
     "js-toolbox": "./bin/js-toolbox.js"

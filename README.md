@@ -5,16 +5,16 @@
 ![Zero Dependencies](https://img.shields.io/badge/dependencies-0-success)
 ![Commits](https://img.shields.io/github/commit-activity/t/tbhvishal/js-toolbox)
 
->  A  small,  zero-dependency  JavaScript  toolbox  for  everyday  tasks  —  simple,  readable,  and  copy‑paste  friendly.  ✨
+>  A  small,  zero-dependency  JavaScript  toolbox  for  everyday  tasks  -  simple,  readable,  and  copy-paste  friendly.  ✨
 
 ##  ✨  Features
 
--  🚀  **Zero  dependencies**  —  lightweight  and  fast
--  📦  **40+  utilities**  —  covering  strings,  numbers,  arrays,  dates,  async,  and  more
--  🌐  **Works  everywhere**  —  Node  18+  (ESM)  and  browser-friendly
--  📝  **JSDoc  comments**  —  full  autocomplete  support
--  🔧  **Built-in  CLI**  —  use  utilities  from  the  command  line
--  ✅  **Well-tested**  —  comprehensive  test  suite  included
+-  🚀  **Zero  dependencies**  -  lightweight  and  fast
+-  📦  **40+  utilities**  -  covering  strings,  numbers,  arrays,  dates,  async,  and  more
+-  🌐  **Works  everywhere**  -  Node  18+  (ESM)  and  browser-friendly
+-  📝  **JSDoc  comments**  -  full  autocomplete  support
+-  🔧  **Built-in  CLI**  -  use  utilities  from  the  command  line
+-  ✅  **Well-tested**  -  comprehensive  test  suite  included
 
 ##  📦  Installation
 
@@ -69,7 +69,7 @@ node  ./bin/js-toolbox.js  strings  slugify  "Hello  World!"
 `readJSON`, `writeJSON`, `ensureDir`, `listFiles`
 
 ### 🌐  HTTP
-`get`, `post` — using fetch with timeout + retries
+`get`, `post` - using fetch with timeout + retries
 
 > 💡  **Tip:**  See  examples  in  each  file  and  comprehensive  tests  in  `tests/`.
 
