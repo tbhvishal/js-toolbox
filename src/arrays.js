@@ -77,3 +77,4 @@ export function partition(xs, fn) {
   }
   return [pass, fail];
 }
+
