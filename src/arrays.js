@@ -57,3 +57,16 @@ export function last(xs) {
 export function take(xs, n = 1) {
   return xs.slice(0, Math.max(0, n));
 }
+
+/** Generate a range of numbers [start, end). */
+export function range(start, end, step = 1) {
+  if (end === undefined) {
+    end = start;
+    start = 0;
+  }
+  const out = [];
+  for (let i = start; step > 0 ? i < end : i > end; i += step) {
+    out.push(i);
+  }
+  return out;
+}
