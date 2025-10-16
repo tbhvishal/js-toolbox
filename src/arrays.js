@@ -42,3 +42,18 @@ export function flatten(xs) {
 export function compact(xs) {
   return xs.filter(Boolean);
 }
+
+/** Get the first element. */
+export function first(xs) {
+  return xs[0];
+}
+
+/** Get the last element. */
+export function last(xs) {
+  return xs[xs.length - 1];
+}
+
+/** Take the first n elements. */
+export function take(xs, n = 1) {
+  return xs.slice(0, Math.max(0, n));
+}
