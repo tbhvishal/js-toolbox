@@ -46,3 +46,11 @@ export function endOfDay(d = new Date()) {
   date.setHours(23, 59, 59, 999);
   return date;
 }
+
+/** Get the number of days between two dates. */
+export function daysBetween(a, b) {
+  const da = startOfDay(a);
+  const db = startOfDay(b);
+  const diffMs = Math.abs(db - da);
+  return Math.floor(diffMs / (1000 * 60 * 60 * 24));
+}
