@@ -60,3 +60,13 @@ export function percentage(value, total) {
   if (total === 0) return 0;
   return (value / total) * 100;
 }
+
+/** Check if a number is even. */
+export function isEven(n) {
+  return n % 2 === 0;
+}
+
+/** Check if a number is odd. */
+export function isOdd(n) {
+  return n % 2 !== 0;
+}
