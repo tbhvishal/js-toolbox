@@ -75,3 +75,4 @@ export  function  escapeHtml(s  =  '')  {
   const  map  =  {  '&':  '&amp;',  '<':  '&lt;',  '>':  '&gt;',  '"':  '&quot;',  "'":  '&#39;'  };
   return  String(s).replace(/[&<>"']/g,  (char)  =>  map[char]);
 }
+
