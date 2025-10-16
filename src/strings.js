@@ -47,3 +47,8 @@ export function stripAnsi(s = '') {
   // standard-ish ANSI escape code regex
   return String(s).replace(/\u001B\[[0-9;]*[A-Za-z]/g, '');
 }
+
+/** Reverse a string. */
+export function reverse(s = '') {
+  return String(s).split('').reverse().join('');
+}
